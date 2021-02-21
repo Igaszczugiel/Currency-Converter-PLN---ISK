@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter for Polish people in Iceland</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="author" content="Iga Szczugiel">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <div class="top-banner">
+
+        </div>
+    </div>
+
+    <div class="top-header">
+        <div class="logo">
+        </div>
+        <div class="title">
+            <h1>Currency Converter for Polish people living in Iceland</h1>
+            <h4>updated daily / according to NBP data</h4>
+        </div>
+    </div>
+    <div class="converter">
+        <form id="convertIt">
+            <input id="amount" class="number" type="number" placeholder="Type amount">
+            <label for="baseCurrency" class="h3">From: </label>
+            <select id="currencyListFrom">
+                <option value="isk">ISK</option>
+                <option value="eur">EUR</option>
+                <option value="usd">USD</option>
+            </select>
+            <label for="resultCurrency" class="h3">Convert into: </label>
+            <select id="currencyListTo">
+                <option value="pln" id="pln">PLN</option>
+            </select>
+            <button class="button" id="button">
+                Convert!
+            </button>
+        </form>
+        <div id="resultLine" class="result-line">
+            <h2>Equals:</h2>
+           <span class="result" id="result"></span>
+            <h2> PLN </h2>
+        </div> 
+    </div>
+    
+    
+    <div class="joke-section">
+        <div class="joke-title">
+            <h2 class="h2-joke">Joke time:</h2>
+        </div>
+        <div class="joke-container">
+            <p class="joke-text">loremUpsum</p>
+        </div>
+        <button class="btn new-joke-btn">hahahaha, one more, please!</button> 
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>        
+</body>
+</html>
