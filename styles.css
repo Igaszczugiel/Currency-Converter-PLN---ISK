@@ -40,7 +40,6 @@ h1 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: #ff1313;
-    /* margin: 10px; */
 }
 
 h2 {
@@ -67,7 +66,6 @@ h4 {
 .converter {
     height: 100px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     background-color: #ececec;
     margin-top: 10px;
